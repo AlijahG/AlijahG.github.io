@@ -1,0 +1,78 @@
+body{
+    background-color: ;
+    background-image: url("Phones.png")
+}
+
+.wrapper{
+    max-width: 968px;
+    width:968%;
+    margin: auto;
+    }
+
+.grid{
+    width: 100%;
+    
+}
+.col8 {
+    width: 100%;
+    background: #7adce3; 
+   opacity: ;
+    height: 350px;
+    margin: 1%;
+    float: left;
+}
+.col4{
+    width: 31.3%;
+    background: ;
+    height: 450px;
+    margin: 1%;
+    float: left;
+}
+
+.col3{
+    width: 31.3%;
+    background: ;
+    height: 40px;
+    margin: 1%;
+    float: left;
+}
+
+@media (max-width :460px) {
+    .col8 {
+    width: 100%;
+    background: ;
+    height: 350px;
+    margin: 1%;
+    float: left;
+}
+    
+.col4{
+    width: 100%;
+    background: ;
+    height: 450px;
+    margin: 1%;
+    float: left;
+}
+
+.col3{
+    width: 100%;
+    background: ;
+    height: 40px;
+    margin: 1%;
+    float: left;
+}
+
+}
+.text1{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    vertical-align: middle;
+    color: #878f8e;
+    font-size:29px;
+}
+
+.text2{
+    text-align: center;  
+    font-size: 10px;
+    
+}
