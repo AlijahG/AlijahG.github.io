@@ -1,0 +1,220 @@
+#wrapper{
+    margin:50px auto;
+    width: 960px;
+}
+
+hr{
+    border-color: black;
+    width: 90%;
+}
+
+#hr1{
+    border-color: black;
+    width: 90%;
+    margin-bottom:25px;
+}
+
+a:link    {color:#000000; background-color:transparent; text-decoration:none}
+a:visited {color:black; background-color:transparent; text-decoration:none}
+a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
+a:active  {color:#ff0000; background-color:transparent; text-decoration:none}
+
+.navlinks{
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+    font-size: 15px;
+    color: black;
+    
+}
+
+.ZonedIn{
+    text-align: center;
+    font-family: 'Michroma', sans-serif;
+    font-size: 25px;
+}
+
+#container{
+    width: 100%;
+    text align: center; 
+}
+
+.masonryImage{
+    text-align: center;
+    padding:2px;
+    
+}
+
+#footer {
+ background-color: ;
+ font-size: 15px;
+ font-family:'Michroma', sans-serif;
+ text-align: center;
+ width: 90%;
+ margin-left:5%;
+ 
+}
+
+ @media only screen and (max-width : 960px), only screen and (max-device-width : 960px){
+    .masonryImage{
+        height: 500px;
+    }
+     hr{
+    
+    width: 90%;
+}
+
+#hr1{
+    width: 90%;
+}
+
+
+
+.navlinks{
+    width: 100;
+}
+
+.ZonedIn{
+    width: 100%;
+}
+
+#container{
+    width: 100%;
+
+}
+
+.masonryImage{
+    text-align: center;
+    padding:2px;
+    width: 100%;
+    
+}
+
+#footer {
+ width: 100%;
+    
+}
+ }
+
+ @media only screen and (max-width : 960px), only screen and (max-device-width : 960px){
+    .masonryImage{
+        height: 500px;
+    }
+    
+      }
+     hr{
+    
+    width: 90%;
+}
+
+#hr1{
+    width: 90%;
+}
+
+
+
+.navlinks{
+    width: 100;
+}
+
+.ZonedIn{
+    width: 100%;
+}
+
+#container{
+    width: 100%;
+
+}
+
+.masonryImage{
+    text-align: center;
+    padding:2px;
+    width: 100%;
+    
+}
+
+#footer {
+ width: 100%;
+    
+}
+    @media only screen and (max-width : 640px), only screen and (max-device-width : 640px){
+    .masonryImage{
+        height: 500px;
+    }
+        
+         }
+     hr{
+    
+    width: 90%;
+}
+
+#hr1{
+    width: 90%;
+}
+
+
+
+.navlinks{
+    width: 100;
+}
+
+.ZonedIn{
+    width: 100%;
+}
+
+#container{
+    width: 100%;
+
+}
+
+.masonryImage{
+    text-align: center;
+    padding:2px;
+    width: 100%;
+    
+}
+
+#footer {
+ width: 100%;
+    
+}
+    
+    @media only screen and (max-width : 480px), only screen and (max-device-width : 640px){
+    .masonryImage{
+        height: 500px;
+    }
+     }
+     hr{
+    
+    width: 90%;
+}
+
+#hr1{
+    width: 90%;
+}
+
+
+
+.navlinks{
+    width: 100;
+}
+
+.ZonedIn{
+    width: 100%;
+}
+
+#container{
+    width: 100%;
+
+}
+
+.masonryImage{
+    text-align: center;
+    padding:2px;
+    width: 100%;
+    
+}
+
+#footer {
+ width: 100%;
+    
+}
