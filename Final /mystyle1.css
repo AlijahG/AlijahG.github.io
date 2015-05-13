@@ -1,8 +1,4 @@
-body{
-    background-color:;
-    height: 100%;
-    width: 100%;
-}
+
 
 h5{
     text-align: center;
@@ -16,19 +12,30 @@ hr{
     width: 90%;
 }
 
-a:link    {color:#000000; background-color:transparent; text-decoration:none}
-a:visited {color:black; background-color:transparent; text-decoration:none}
-a:hover   {color:white; background-color:transparent; text-decoration:underline}
-a:active  {color:white; background-color:transparent; text-decoration:none}
-
+#Form{
+    margin-left:80.5%;
+    height: 0;
+    width: ;
+    
+    
+}
 .navlinks{
+    
     text-align: center;
-    width: 90%;
-    margin-left: 5%;
     font-family: 'Michroma', sans-serif;
     font-size: 15px;
     color: black;
 }
+
+form{
+    margin-left:80%;
+    height: 0;
+    width: ;
+    margin-bottom: 10px;
+   
+    color: black;
+}
+
 
 .ZonedIn{
     text-align: center;
@@ -45,8 +52,8 @@ a:active  {color:white; background-color:transparent; text-decoration:none}
 
 a:link    {color:#000000; background-color:transparent; text-decoration:none}
 a:visited {color:black; background-color:transparent; text-decoration:none}
-a:hover   {color:#ff0000; background-color:transparent; text-decoration:underline}
-a:active  {color:#ff0000; background-color:transparent; text-decoration:none}
+a:hover   {color:white ; background-color:transparent; text-decoration:underline}
+a:active  {color:white; background-color:transparent; text-decoration:none}
 #date1{
     background-color: black;
     border-radius: 2px;
@@ -60,6 +67,7 @@ a:active  {color:#ff0000; background-color:transparent; text-decoration:none}
     
 }
 
+
 li{
     height: 200px;
 }
@@ -69,14 +77,15 @@ li{
     width: 100%;
 }
 
+
 #footer {
+ text-align: center;
  background-color: ;
  font-size: 15px;
  font-family: 'Michroma', sans-serif;
- text-align: center;
- width: 90%;
- margin-left:5%;
+ margin-left:;
  
+  
 }
 
 /**********/
@@ -379,3 +388,47 @@ li{
     
 }
         
+@media only screen and (max-width : 375px), only screen and (max-device-width : 480px){
+    li{
+        height: 500px;
+    }
+    
+    hr{
+    border-color: black;
+    width: 90%;
+}
+
+.navlinks{
+   
+    width: 100%;
+    
+}
+
+.ZonedIn{
+    width:  100%;
+}
+
+.entry{
+    width: 90%;
+    height: 100%;
+    
+}
+
+.date{
+    color: white;
+    font-family: 'Michroma', sans-serif;
+    
+    width: 100%;
+}
+
+#thumbnails{
+    overflow: auto;
+    width: 100%;
+}
+
+#footer{
+ 
+    height: 100%;
+}
+    
+}
